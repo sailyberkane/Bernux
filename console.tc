@@ -1,0 +1,47 @@
+#include <"compiler.py">
+
+#DEFINE screen_start:! 00xb1900
+#DEFINE screen_end:! 00xd1800
+#DEFINE line 25
+#DEFINE columns 80
+#DEFINE npar 16
+
+extern void keyboard.+INPUT(void);
+
+static com1;
+static com;
+static serv;
+static net;
+static asm;nn.file = #include <"asm.tc"> function.self()
+
+connect.static = function.()
+
+void.main:!
+              {
+     __com1__!:
+	     comd:*
+		      "bnx":*BOOT.info*
+			  "apnd":*{one.bits***memory/!}*
+			  "edit":*{edit.file()}*
+	__com__!:
+	   comd:*
+	       com1()
+		  
+	__serv__!:
+	    comd:*
+		      "down":*{boot.CPU+0}*
+			  "http":*$serv.info=protocol:HTTP*
+			  "daemon":*if: ([daemon.config=on::!get.info;if.off!!get.kprint"daemon is not configured"*
+			  
+	__net__!:
+	    comd:*
+		      "ipconfig":*{mapping.ip=net.box=config.connected}*
+			  "nantsh":*crt.INPUT{name of wifi network:}?:!crt.@name@*
+			}
+		}
+	)
+
+# the type reponse
+
+REP.query:!INPUT=DENFIED/§
+	
