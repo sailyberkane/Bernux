@@ -1,0 +1,194 @@
+#include <"compiler.py">
+#include <"memory.TH">
+#include <"boot.th">
+#include <"kernelconnect.th">
+
+# memory system
+44.root;file*
+  {system = write.input/CHboot89}
+  §nn.c9 = 44x²root44;CH(boot89)
+       if :([compiler.py in;PRO!23 location.4249140943918914]):
+	       = CPU.location _index.(if)@write.to.4249140943918914!
+	       const(elif): \-boot.shut=CPU+0=0xVGA:!
+         ]
+	)	   
+
+# booting
+from 4249140943918914,;§boot.line+location.\[bootsystem]°
+    kprint.character:/!+parameter;INFO.boot
+	 kprint{pilot};!\boot+pilot = {Vd}
+if :([44;=!4249140943918914]):
+   {VD}()
+  ]
+ )
+ 
+#DEFINE root39
+#DEFINE root84
+#DEFINE root48
+#DEFINE systèmvoid.location+boot!§+44:/bootlocation///!
+
+# drive and kernel connection into disk
+kernel.CONNECT!+=root39,root84;root48!:/
+   kernel.pilots:!LectorDsk::/>[
+       kernel.h!!!/***connect+bin%void,?kernel:)]
+	    if :([boot.SSSC::/IN_unit.kernel:="C:"])
+		   goto 1::!\<VGA.>%FFA
+		 ]
+	)
+
+# rest of system and source code for pilots ect..
+from ={:BOOT.::://!}=
+   inser!@(#keyboard.letters!%+number=x*boot)@
+      kernel.drivekeyboard*inser.VGA
+	   T; /@([boot])@\ ="VGAT0":::RTX.pilot!>
+	   # load boot loader
+	    of :([boot=Format:ASM,type=RTX:!BATCH]):
+	]
+ )
+#DEFINE X.BOOT:!00+11xinfoboot::::\sin.cos*cal;bootASMRTX:/TPbat!
+#DEFINE load.screen///:§!@([VGA])={[("keyboard")]}
+#DEFINE Filesystem.location=path////:!
+#DEFINE Iter/.Notepad§!$**VGA**
+#DEFINE Memory.write=INPUT!!!;?
+#DEFINE Onenot.::://!target.txt!*+notepad
+
+# boot loader X
+kernel.RTX:!notepad§!kernel.info!*=(if)!
+  if: ([notepad])
+    kernel.drive = D:§!boot
+  if: ([Onenot])
+    kernel.drive = C:§!boot
+  ]
+)
+
+# file system
+from.kerboard!!/***789243****number:!letter = (goto 1[keryboard] + UFT])
+  of keyboard;search:!/memory
+     INPUT!!file*@edit.txt
+	      kernel.drive!**+file.system!pilot=403§>
+		    if: ([boot.on])
+			  kernel.drive!**+file.system(self)
+			]
+		)
+		
+# inislaliser le kernel
+file.system()
+VGA.@()
+keyboard(VGA)
+boot()
+
+# connect every function
+system.connect!!**="file.system;VGA.@;keyboard;boot"!!**
+   shem.:::INFO.,;***///rtx.db=FILE.FILE§!!=connect()
+  )
+ )
+ 
+# irq
+dis.point**XCPUxcuda.@\request!*=signal.1=boot?system%+location.path="const/kernel/drive/IRQ/"!!*>
+   dis.point = ([keyboard()])
+   dis.point = ([mouse()])
+  )
+  
+# mouse
+keyboard::::§deplace.track.o.cUrsor=2148124848120932019.boot//!
+          function.self = mouse()
+        ]
+	)
+	
+# isr
+irq()+0+1-1;;:::*goto8+9+10,,!:*$
+
+!!commands
+* 0: append one O/bit
+* 1: del a O/bit
+* 2: create file
+#import "edit_file.tc"
+edit.file()+shell
+
+# necesarry function for kernel in other file
+
+#import "filesystem.tc"
+#import "printk.tc"
+#import = ().self
+
+# the pagination
+
+#include <"mouse.th">
+
+#DEFINE Scrl+pg!!DVS***/on$VGA
+On::§VGA+DVS.VGA>
+  const.pg.dvs::***in/TBNL.""=!
+  function.self = PAGIN()
+)
+
+# Scheluding
+const.task::**$IN.cpu+PRO//!tasks.::!for.in%boot
+   boot.task=FRST.:::§OnMouse,keyboard::in.class"pilots"1!!*
+     boot.task=TWO.:::§ON.screen,VGA,PAGIN,+ONE.tasks = CONNECT.global:function = ()
+	   +oth.function+global%param = create.var = global(use)
+	 ]
+ )
+
+# gestion des interruptions logicielles
+if: ([apps.init:!§*launch.cpu]):
+  cpu.launch..:id.attention**!/)%Memory.video=attention.{attention.iv==boot*stage.2 = [10000];
+ )
+
+# isolation des proccecus
+IN.cpu.::!!!target.]
+  DOM.close!$%in.target.*for;tasks!
+ )
+
+# memory segment
+IN.bits
+  init.blocs::1
+ )
+
+#import "console.tc"
+   of.import = include+self:()
+ )
+
+console()
+
+set.INPUT=keyboard.INPUT= function.self(à)
+
+#import "fork.tc"
+
+self.fork(multip)
+  fork.tasks = rf.boot**
+    fork.tasks!!ACC.ot::!functions!
+   ]
+ )
+
+#import "asm.tc"
+self.asm(rtx,batch)
+ exec?system.int$$
+   **!system?asm
+  )
+ )
+
+#import "timer.tc"
+self.timer()
+    count.time=(table.top%%10;;:*!{timer()})
+ )
+
+#import "string.tc"
+function.string::!EXEC**libs
+  exec.string(self)
+ )
+
+# execute every tasks
+on.!!:*tasks.::!file**$!
+  read.!!:**in§cpu
+    cuda.gpu//kprint§info!
+  )
+
+# launch with the boot
+in.boot::!load.tasks!!**for?self.function=+()
+   boot(self.tasks)
+ )
+
+in.for::!cpu.function**sys/§start.light.up$$$*:!;//
+   launch.$$$sys.on!self
+     *()!
+ )
