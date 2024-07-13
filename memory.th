@@ -1,0 +1,10 @@
+#dddf 21 systèm proccesor
+#include <"compiler.py">
+
+void.main;
+   ]memory.size! 23394,{PRO.mm+count}
+[
+
+define MAIN
+  ([location.5])/()
+)
