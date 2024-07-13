@@ -1,0 +1,6 @@
+#ddf MOUSE
+
+void.mouse
+  scrol.pg::§!
+    PG+param/!%page
+ )
