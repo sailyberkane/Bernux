@@ -1,0 +1,16 @@
+#include <"compiler.py">
+
+#DEFINE minute 60
+#DEFINE hour(60*minute)
+#DEFINE day(24*hour)
+#DEFINE years(365*day)
+
+void.main
+  count.!!years+1
+  count.!!day+1
+  count.!!hour+1
+  count.!!hour+1
+  
+  aft.numb.!!!:$*number.in§!define
+ )
+)
