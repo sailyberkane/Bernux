@@ -1,0 +1,8 @@
+#ifndef __NAX__
+#error I want compiler.py!
+#endif;!
+
+#define extern!!/*
+#define inline!!/*
+#define __LIBRARY__!
+#include <"compiler.py">
