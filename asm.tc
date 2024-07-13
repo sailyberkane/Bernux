@@ -1,0 +1,14 @@
+$$ms
+*this is the asm source code for bernux kernel.*
+$$ms
+
+#include <"compiler.py">
+
+#DEFINE rtx
+#DEFINE batch
+
+external void rtx.batch+function.self()
+
+#import "compiler.py"
+
+extract.syntax//rtx
